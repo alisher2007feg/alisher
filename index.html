@@ -1,110 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./style.css">
-    <title>9-dars vazifa</title>
+    <link rel="stylesheet" href="./index.css">
+    <title>NAMANGANLIKLAR 24</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Rubik:wght@400;500;700&display=swap');
+</style>
+
 <body>
+
+
+
     <header class="header">
-        <div class="container">
-            <div class="navbar">
-                <div class="nav__chap">
-                    <img src="./imgs/NAMANGANLIKLAR 24.png" alt="logo">
-                    <p><i class="fa-solid fa-dollar-sign"></i> 10137.2</p>
-                    <p><i class="fa-solid fa-ruble-sign"></i> 138.26</p>
-                </div>
-                <div class="nav__ong">
-                    <div class="lupa"><i class="fa-solid fa-magnifying-glass"></i><input type="text"  placeholder="Поиск"></div>
-                    <img src="./imgs/ру уз.png" alt="uz,ru">
-                    <button><a href="#">Войти</a></button>
-                </div>
+        <h1 class="name">NAMANGANLIKLAR 24</h1>
+        <p class="number">$ </p>
+        <p class="numner1">10137.2</p>
+        <p class="number">P </p>
+        <p class="numner1">138.26</p>
+        <form action="#">
+            <input class="poisk" type="text" placeholder="Поиск">
+        </form>
+        <div class="language">
+            <div class="uzbdiv">
+                <p class="uzb">УЗ</p>
             </div>
+            <p class="rus">РУ</p>
         </div>
+
+        <p class="boyti">Войти</p>
+    </div>
     </header>
+
+
+
+
     <main>
-        <div class="container">
-            <div class="navigation">
-                <ul>
-                    <li>Главное</li>
-                    <li>Интересное</li>
-                    <li>Эканомика</li>
-                    <li>Политика</li>
-                    <li>Общество</li>
-                    <li>Технологии</li>
-                    <li>Спорт</li>
-                    <li>Культура</li>
-                    <li>Происшествия</li>
-                    <li>Наука</li>
-                </ul>
-                <div class="stick"></div>
-            </div>
-            <div class="box"><strong>Напишите нам</strong></div>
-            <form action="https://echo.htmlacademy.ru/">
-                <div class="blog">
-                    <div class="blog__chap">
-                        <div class="verh">
-                            <input type="text" name="name" id="name" placeholder="Имя">
-                            <input type="number" name="number" id="number" placeholder="Номер телефона">
-                        </div>
-                        <div class="sred">
-                            <input type="email" name="email" id="email" placeholder="Электронная почта">
-                            <textarea name="message" id="message" cols="30" rows="7" placeholder="Текст"></textarea>
-                        </div>
-                    </div>
-                    <div class="blog__ong">
-                        <b>Электронная почта</b> <br>
-                        <span>info@namanganliklar24.uz</span>
-                        <div class="stic"></div>
-                        <b>Номер телефона</b> <br>
-                        <span>+998 88 522-54-76</span>
-                        <div class="stic"></div>
-                        <b>Адрес</b> <br>
-                        <span>Ташкент. площадь Мустакиллик. 6</span>
-                    </div>
-                </div>
-                    <div class="vniz">
-                    <button type="submit">Отправить</button>
-                </div>
+    <div class="categorie">
+        <p class="cate">Главное</p>
+        <p class="cate">Интересное</p>
+        <p class="cate">Экономика</p>
+        <p class="cate">Политика</p>
+        <p class="cate">Общество</p>
+        <p class="cate">Технологии</p>
+        <p class="cate">Спорт</p>
+        <p class="cate">Культура</p>
+        <p class="cate">Происшествия</p>
+        <p class="cate">Наука</p>
+    </div>
+    <div class="chiziq1"></div>
+
+
+    <p class="yozuv">Напишите нам</p>
+
+
+
+    <div class="sectionham">
+        <div>
+            <form action="#">
+                <input class="ism" type="text" placeholder="Имя">
+                <input class="ism" type="tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" maxlength="9"
+                    placeholder="Номер телефона"><br>
+                <input class="ism email" type="email" placeholder="Электронная почта"><br>
+                <textarea class="textcoment" name="coment" id="coment" cols="91" rows="9"
+                    placeholder="Текст"></textarea>
+
+
             </form>
         </div>
+        <div class="formright">
+            <p class="headercard">Электронная почта</p>
+            <p class="footercard">info@namanganliklar24.uz</p>
+
+            <div class="ciziq2"></div>
+
+
+            <p class="headercard">Номер телефона</p>
+            <p class="footercard">+998 88 522-54-76</p>
+
+            <div class="ciziq2"></div>
+
+
+            <p class="headercard">Адрес</p>
+            <p class="footercard">Ташкент, площадь Мустакиллик, 6 </p>
+
+        </div>
+    </div>
     </main>
+
+
+
     <footer class="footer">
-        <div class="content">
-            <div class="logo"><img src="./imgs/logo.png" alt="logo"></div>
-            <div class="box__2">
-                <ul>
-                    <li><p>Возпроизводство, копирование, <br>использование информации с сайта <br>NAMANGANLIKLAR24.UZ возможно <br>только с передварительного <br>письменного разрешения редакци.</p></li>
-                </ul>
-                <ul>
-                    <li>Информация о сайте</li>
-                    <li>Напишите нам</li>
-                    <li>Реклама</li>
-                    <li>Прислать новость</li>
-                </ul>
-                <ul>
-                    <li>использование материалов</li>
-                    <li>Темы дня</li>
-                    <li>Наша команда</li>
-                </ul>
+        <div class="footer1">
+            <div class="footerbigtext">
+                <p class="footername1">NAMANGANLIKLAR 24
+                <p>
+                <p class="nametext1">Воспроизводство, копирование, использование информации с сайта
+                    «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
+                </p>
             </div>
-            <div class="stick__3"></div>
-            <div class="box__3">
-                <div class="footer__chap">
-                    <p>Наши</p>
-                    <p>социальные сети</p>
-                </div>
-                <div class="footer__ong">
-                    <img src="./imgs/free-icon-facebook-1384053 1.png" alt="facebook">
-                    <img src="./imgs/free-icon-instagram-2111463 1.png" alt="instagram">
-                    <img src="./imgs/free-icon-telegram-2111646 1.png" alt="telegram">
-                    <img src="./imgs/free-icon-youtube-1384060 1.png" alt="youtube">
-                </div>
+
+            <div class="plar">
+                <p class="setting">Информация о сайте</p>
+                <p class="setting">Напишите нам</p>
+                <p class="setting">Реклама</p>
+                <p class="setting">Прислать новость</p>
+            </div>
+
+            <div class="plar">
+                <p class="setting">Использование материалов</p>
+                <p class="setting">Темы дня</p>
+                <p class="setting">Наша команда</p>
             </div>
         </div>
+
+
+        <div class="chiziqfooter"></div>
+
+        
+        <div class="imgandtext">
+
+            <p class="dasturlar">Наши социальные сети</p>
+
+            <div class="imgdiv">
+                <img src="./images/faseboo.png" alt="bor">
+                <img src="./images/insta.png" alt="bor">
+                <img src="./images/telegram.png" alt="bor">
+                <img src="./images/youtube.png" alt="bor">
+            </div>
+        </div>
+
+
     </footer>
+
+
 </body>
+
 </html>
