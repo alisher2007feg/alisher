@@ -1,0 +1,80 @@
+.footer {
+    background-color: #7297EF;
+    width: 100%;
+    height: 456px;
+    margin-bottom: 100px;
+}
+
+.footer1 {
+    margin-top: 173px;
+    display: flex;
+}
+
+.footername1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.nametext1 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 229px;
+}
+
+.footerbigtext {
+    margin: 40px 168px 71px 221px;
+}
+
+.setting {
+    width: 267px;
+    height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+.plar {
+    margin: 90px 0px 30px 0px;
+}
+
+.chiziqfooter {
+    width: 1070px;
+    height: 1px;
+    background-color: #CECECE;
+    margin-left: 220px;
+}
+
+.dasturlar {
+    width: 161px;
+    height: 46px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+
+.imgandtext{
+    margin: 20px 0px 40px 211px;
+    display: flex;
+}
+
+.imgdiv{
+margin-left: 699.77px;
+}
+
+.imgdiv img{
+    margin-left: 25px;
+    margin-top: 31px;
+    cursor: pointer;
+}
